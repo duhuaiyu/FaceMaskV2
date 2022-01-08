@@ -1,0 +1,433 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  8 JAN 2022 17:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Mask Detection.tex"
+(./Mask Detection.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen135
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks17
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks18
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen146
+\captionmargin@=\dimen147
+\captionwidth=\dimen148
+\caption@tempdima=\dimen149
+\caption@indent=\dimen150
+\caption@parindent=\dimen151
+\caption@hangindent=\dimen152
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count188
+\c@continuedfloat=\count189
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count190
+\c@subtable=\count191
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count192
+\lst@gtempboxa=\box47
+\lst@token=\toks22
+\lst@length=\count193
+\lst@currlwidth=\dimen153
+\lst@column=\count194
+\lst@pos=\count195
+\lst@lostspace=\dimen154
+\lst@width=\dimen155
+\lst@newlines=\count196
+\lst@lineno=\count197
+\lst@maxwidth=\dimen156
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count198
+\lst@skipnumbers=\count199
+\lst@framebox=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count266
+\l__pdf_internal_box=\box49
+)
+(./Mask Detection.aux
+
+LaTeX Warning: Label `fig:Gaussian blur image' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Gaussian blur image' multiply defined.
+
+
+LaTeX Warning: Label `fig:good' multiply defined.
+
+)
+\openout1 = `"Mask Detection.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count267
+\scratchdimen=\dimen157
+\scratchbox=\box50
+\nofMPsegments=\count268
+\nofMParguments=\count269
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count270
+\MPscratchDim=\dimen158
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count273
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Chapter 1.
+[1
+
+]
+Chapter 2.
+<./imgs/maksssksksss81.png, id=13, 401.5pt x 240.9pt>
+File: ./imgs/maksssksksss81.png Graphic file (type png)
+<use ./imgs/maksssksksss81.png>
+Package pdftex.def Info: ./imgs/maksssksksss81.png  used on input line 27.
+(pdftex.def)             Requested size: 155.24895pt x 93.14928pt.
+<./imgs/maksssksksss109.png, id=15, 401.5pt x 401.5pt>
+File: ./imgs/maksssksksss109.png Graphic file (type png)
+<use ./imgs/maksssksksss109.png>
+Package pdftex.def Info: ./imgs/maksssksksss109.png  used on input line 34.
+(pdftex.def)             Requested size: 155.24895pt x 155.24881pt.
+<./imgs/maksssksksss149.png, id=16, 401.5pt x 284.06125pt>
+File: ./imgs/maksssksksss149.png Graphic file (type png)
+<use ./imgs/maksssksksss149.png>
+Package pdftex.def Info: ./imgs/maksssksksss149.png  used on input line 41.
+(pdftex.def)             Requested size: 155.24895pt x 109.83852pt.
+<./imgs/maksssksksss752.png, id=17, 401.5pt x 225.84375pt>
+File: ./imgs/maksssksksss752.png Graphic file (type png)
+<use ./imgs/maksssksksss752.png>
+Package pdftex.def Info: ./imgs/maksssksksss752.png  used on input line 48.
+(pdftex.def)             Requested size: 155.24895pt x 87.32745pt.
+[2
+
+ <./imgs/maksssksksss81.png> <./imgs/maksssksksss109.png> <./imgs/maksssksksss1
+49.png> <./imgs/maksssksksss752.png>]
+Chapter 3.
+<imgs/workflow.png, id=26, 2461.195pt x 981.6675pt>
+File: imgs/workflow.png Graphic file (type png)
+<use imgs/workflow.png>
+Package pdftex.def Info: imgs/workflow.png  used on input line 62.
+(pdftex.def)             Requested size: 344.56496pt x 137.43251pt.
+[3
+
+ <./imgs/workflow.png>]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 7
+2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 72.
+<imgs/instance numbers.png, id=31, 1310.8975pt x 1072.005pt>
+File: imgs/instance numbers.png Graphic file (type png)
+<use imgs/instance numbers.png>
+Package pdftex.def Info: imgs/instance numbers.png  used on input line 103.
+(pdftex.def)             Requested size: 262.17485pt x 214.3972pt.
+ [4]
+<imgs/r1.png, id=36, 654.445pt x 493.845pt>
+File: imgs/r1.png Graphic file (type png)
+<use imgs/r1.png>
+Package pdftex.def Info: imgs/r1.png  used on input line 120.
+(pdftex.def)             Requested size: 261.77336pt x 197.53448pt.
+ [5 <./imgs/instance numbers.png>]
+<imgs/r2.png, id=41, 150.5625pt x 100.50047pt>
+File: imgs/r2.png Graphic file (type png)
+<use imgs/r2.png>
+Package pdftex.def Info: imgs/r2.png  used on input line 130.
+(pdftex.def)             Requested size: 225.84317pt x 150.75032pt.
+<./imgs/r31.png, id=42, 401.5pt x 226.8475pt>
+File: ./imgs/r31.png Graphic file (type png)
+<use ./imgs/r31.png>
+Package pdftex.def Info: ./imgs/r31.png  used on input line 141.
+(pdftex.def)             Requested size: 276.00105pt x 155.95033pt.
+<./imgs/r32.png, id=43, 302.12875pt x 401.5pt>
+File: ./imgs/r32.png Graphic file (type png)
+<use ./imgs/r32.png>
+Package pdftex.def Info: ./imgs/r32.png  used on input line 148.
+(pdftex.def)             Requested size: 207.0021pt x 275.0871pt.
+ [6 <./imgs/r1.png (PNG copy)> <./imgs/r2.png (PNG copy)>]
+<imgs/r4.png, id=48, 401.5pt x 289.08pt>
+File: imgs/r4.png Graphic file (type png)
+<use imgs/r4.png>
+Package pdftex.def Info: imgs/r4.png  used on input line 161.
+(pdftex.def)             Requested size: 321.20042pt x 231.2643pt.
+
+[7] [8 <./imgs/r31.png (PNG copy)> <./imgs/r32.png (PNG copy)>] [9 <./imgs/r4.p
+ng (PNG copy)>]
+Chapter 4.
+<./imgs/mask.png, id=58, 462.528pt x 346.896pt>
+File: ./imgs/mask.png Graphic file (type png)
+<use ./imgs/mask.png>
+Package pdftex.def Info: ./imgs/mask.png  used on input line 175.
+(pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
+<./imgs/nomask.png, id=59, 462.528pt x 346.896pt>
+File: ./imgs/nomask.png Graphic file (type png)
+<use ./imgs/nomask.png>
+Package pdftex.def Info: ./imgs/nomask.png  used on input line 182.
+(pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
+<./imgs/incorrect.png, id=60, 462.528pt x 346.896pt>
+File: ./imgs/incorrect.png Graphic file (type png)
+<use ./imgs/incorrect.png>
+Package pdftex.def Info: ./imgs/incorrect.png  used on input line 188.
+(pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
+
+LaTeX Warning: Float too large for page by 98.03525pt on input line 194.
+
+[10
+
+] [11 <./imgs/mask.png> <./imgs/nomask.png> <./imgs/incorrect.png>]
+Chapter 5.
+<./imgs/good/maksssksksss756.png, id=70, 401.5pt x 268.00125pt>
+File: ./imgs/good/maksssksksss756.png Graphic file (type png)
+<use ./imgs/good/maksssksksss756.png>
+Package pdftex.def Info: ./imgs/good/maksssksksss756.png  used on input line 20
+1.
+(pdftex.def)             Requested size: 155.24895pt x 103.62857pt.
+<./imgs/good/maksssksksss795.png, id=71, 401.5pt x 301.125pt>
+File: ./imgs/good/maksssksksss795.png Graphic file (type png)
+<use ./imgs/good/maksssksksss795.png>
+Package pdftex.def Info: ./imgs/good/maksssksksss795.png  used on input line 20
+6.
+(pdftex.def)             Requested size: 155.24895pt x 116.4366pt.
+<./imgs/good/maksssksksss765.png, id=72, 302.12875pt x 401.5pt>
+File: ./imgs/good/maksssksksss765.png Graphic file (type png)
+<use ./imgs/good/maksssksksss765.png>
+Package pdftex.def Info: ./imgs/good/maksssksksss765.png  used on input line 21
+1.
+(pdftex.def)             Requested size: 155.24895pt x 206.31226pt.
+<./imgs/good/maksssksksss764.png, id=73, 302.12875pt x 401.5pt>
+File: ./imgs/good/maksssksksss764.png Graphic file (type png)
+<use ./imgs/good/maksssksksss764.png>
+Package pdftex.def Info: ./imgs/good/maksssksksss764.png  used on input line 21
+6.
+(pdftex.def)             Requested size: 155.24895pt x 206.31226pt.
+<./imgs/bad/maksssksksss798.png, id=74, 401.5pt x 334.24875pt>
+File: ./imgs/bad/maksssksksss798.png Graphic file (type png)
+<use ./imgs/bad/maksssksksss798.png>
+Package pdftex.def Info: ./imgs/bad/maksssksksss798.png  used on input line 226
+.
+(pdftex.def)             Requested size: 155.24895pt x 129.24463pt.
+<./imgs/bad/maksssksksss799.png, id=75, 401.5pt x 301.125pt>
+File: ./imgs/bad/maksssksksss799.png Graphic file (type png)
+<use ./imgs/bad/maksssksksss799.png>
+Package pdftex.def Info: ./imgs/bad/maksssksksss799.png  used on input line 231
+.
+(pdftex.def)             Requested size: 155.24895pt x 116.4366pt.
+<./imgs/bad/maksssksksss818.png, id=76, 302.12875pt x 401.5pt>
+File: ./imgs/bad/maksssksksss818.png Graphic file (type png)
+<use ./imgs/bad/maksssksksss818.png>
+Package pdftex.def Info: ./imgs/bad/maksssksksss818.png  used on input line 236
+.
+(pdftex.def)             Requested size: 155.24895pt x 206.31226pt.
+<./imgs/bad/maksssksksss846.png, id=77, 401.5pt x 226.8475pt>
+File: ./imgs/bad/maksssksksss846.png Graphic file (type png)
+<use ./imgs/bad/maksssksksss846.png>
+Package pdftex.def Info: ./imgs/bad/maksssksksss846.png  used on input line 241
+.
+(pdftex.def)             Requested size: 155.24895pt x 87.71558pt.
+[12
+
+ <./imgs/good/maksssksksss756.png (PNG copy)> <./imgs/good/maksssksksss795.png 
+(PNG copy)> <./imgs/good/maksssksksss765.png (PNG copy)> <./imgs/good/maksssksk
+sss764.png (PNG copy)>] [13 <./imgs/bad/maksssksksss798.png (PNG copy)> <./imgs
+/bad/maksssksksss799.png (PNG copy)> <./imgs/bad/maksssksksss818.png (PNG copy)
+> <./imgs/bad/maksssksksss846.png (PNG copy)>]
+Chapter 6.
+[14
+
+] (./Mask Detection.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5258 strings out of 483140
+ 75923 string characters out of 5965150
+ 308532 words of memory out of 5000000
+ 20231 multiletter control sequences out of 15000+600000
+ 539406 words of font info for 50 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 41i,8n,42p,843b,1212s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on "Mask Detection.pdf" (15 pages, 6562071 bytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+

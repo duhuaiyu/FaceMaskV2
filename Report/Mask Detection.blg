@@ -1,56 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Mask Detection.aux
-I couldn't open style file otago.bst
----line 37 of file Mask Detection.aux
- : \bibstyle{otago
- :                }
-I'm skipping whatever remains of this command
-White space in argument---line 38 of file Mask Detection.aux
- : \bibdata{"Mask
- :                Detection"}
-I'm skipping whatever remains of this command
-I found no database files---while reading file Mask Detection.aux
-I found no style file---while reading file Mask Detection.aux
-You've used 1 entry,
-            0 wiz_defined-function locations,
-            86 strings with 521 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
+The style file: plain.bst
+Database file #1: Reference.bib
+Warning--to sort, need author or key in facemd
+Warning--to sort, need author or key in face12k
+Warning--to sort, need author or key in odm
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            507 strings with 4321 characters,
+and the built_in function-call counts, 524 in all, are:
+= -- 51
+> -- 3
 < -- 0
-+ -- 0
++ -- 3
 - -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+* -- 17
+:= -- 66
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
+cite$ -- 6
+duplicate$ -- 21
+empty$ -- 70
 format.name$ -- 0
-if$ -- 0
+if$ -- 127
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 3
 missing$ -- 0
-newline$ -- 0
+newline$ -- 18
 num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 6
 quote$ -- 0
-skip$ -- 0
+skip$ -- 15
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 15
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
+type$ -- 12
+warning$ -- 3
 while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 4 error messages)
+width$ -- 4
+write$ -- 29
+(There were 3 warnings)

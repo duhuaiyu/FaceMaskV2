@@ -7,6 +7,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{listings}
+\usepackage{url}
 
 
 \author{Huaiyu Du, Cairong Yang, Athmar Shamhan}
@@ -16,10 +17,10 @@
 \maketitle
 
 \chapter{Task Description}
-Our goal is to develop an algorithm for mask detection. Given an image, our algorithm would generate an image with ROIs that denote the location of human faces with targets, including: With mask; Without mask; Mask is worn incorrectly.
+Our goal is to develop an program for mask detection. Given an image, our program would generate an image with ROIs that denote the location of human faces with confidence and labels, including: With mask; Without mask; Mask is worn incorrectly.
 
 \chapter{Dataset}
-The chosen dataset "Face Mask Detection" is from Kaggle. The dataset consists of 853 human pictures (of different ages and races ) with various illumination and poses. Also, ground truth is provided. Three classes are included in the dataset: With mask; Without mask; Mask is worn incorrectly. However, some faces are masked by hand instead of using masks. Some samples of the chosen dataset are shown in Figure \ref{fig:Samples}.
+The chosen dataset "Face Mask Detection" \cite{facemd} is from Kaggle. The dataset consists of 853 human pictures (of different ages and races ) with various illumination and poses. Also, ground truth is provided. Three classes are included in the dataset: With mask; Without mask; Mask is worn incorrectly. However, some faces are masked by hand instead of using masks. Some samples of the chosen dataset are shown in Figure \ref{fig:Samples}.
 \begin{figure}[hbtp]
      \centering
      \begin{subfigure}[b]{0.45\textwidth}
@@ -66,7 +67,7 @@ The following Figure \ref{fig:Basic Structure} shows the basic structure of our 
 
 \section{training data preparation}
 \subsection{Dataset analysis}
-Kaggle dataset "Face mask detection" consists of 852 images. Each image contains one or more human faces. Groud truth provided as XML files with absolute location and label name. \\
+Kaggle dataset "Face mask detection" consists of 852 images. Each image contains one or more human faces. Ground truth provided as XML files with absolute location and label name. \\
 Ground truth annotation sample:
 \begin{lstlisting}
 <annotation>
@@ -96,7 +97,10 @@ Ground truth annotation sample:
 \end{lstlisting}
 While, as Figure \ref{fig:Instance numbers} shown. the instance number of each class is quite unbalanced. With mask class has 3232 instances, without mask class has 717 instances while the mask wore incorrectly class only has 123 instances. 
 \subsection{Dataset preparation}
-We wrote a program to chop the sub-images according to the ground truth to prepare the classification training dataset. To make our classification network training dataset more balanced, we have to use image processing approaches such as random rotation and flipping to generate more images for categories "without the mask" and "mask worn incorrectly". We randomly chop 20 images of different sizes and less than 0.2 UOI with ground truth from each image as a background class dataset. There are 852 images in total; chopped images are divided into three categories according to original images' indices: Training set, from 1 to 600; Validation set: from 601 to 750; test set: from 751 to 852.  
+We wrote a program to chop the sub-images according to the ground truth to prepare the classification training dataset. To make our classification network training dataset more balanced, we have to use image processing approaches such as random rotation and flipping to generate more images for categories "without the mask" and "mask worn incorrectly". We randomly chop 20 images of different sizes and less than 0.2 UOI with ground truth from each image as a background class dataset. There are 852 images in total; chopped images are divided into three categories according to original images' indices. \\
+Training set: from 1 to 600. \\
+Validation set: from 601 to 750. \\
+Test set: from 751 to 852.  
 \begin{figure}[hbtp]
 
 \centering
@@ -123,7 +127,7 @@ As mentioned, our first classification network is quite simple and not well trai
 \end{figure}
 
 \subsection{Second Round}
-Then we use a pre-trained VGG16 model for transfer learning. After 50 l epochs training, the accuracy on the validation set is over 90 percent. As Figure \ref{fig:f2} shows, the result somehow makes sense but is still not good enough.
+Then we use a pre-trained VGG16 model for transfer learning. After 50 epochs training, the accuracy on the validation set is over 90 percent. As Figure \ref{fig:f2} shows, the result somehow makes sense but is still not good enough.
 \begin{figure}[hbtp]
 
 \centering
@@ -133,7 +137,7 @@ Then we use a pre-trained VGG16 model for transfer learning. After 50 l epochs t
 \end{figure}
 
 \subsection{Thrid Round}
-We expanded our training set with another dataset on Kaggle "Face Mask Detection ~12K Images Dataset" to make our classification model performs better. This dataset only contains facial images with/without masks, which is quite similar to the chopped images produced by ourselves. Furthermore, we unfroze the last four convolutional layers as well. After 50 epochs of training, the accuracy on the validation set is over 97 percent. As Figure \ref{fig:f3} shows, the True Positive prediction is much better. But there are lots of False Positive predictions. The reason is that background is chopped randomly, but in practice, some background might look similar to the positive samples in our training set, and our model can not distinguish them.
+We expanded our training set with another dataset on Kaggle "Face Mask Detection ~12K Images Dataset" \cite{face12k} to make our classification model performs better. This dataset only contains facial images with/without masks, which is quite similar to the chopped images produced by ourselves. Furthermore, we unfroze the last four convolutional layers as well. After 50 epochs of training, the accuracy on the validation set is over 97 percent. As Figure \ref{fig:f3} shows, the True Positive prediction is much better. But there are lots of False Positive predictions. The reason is that background is chopped randomly, but in practice, some background might look similar to the positive samples in our training set, and our model can not distinguish them.
 \begin{figure}[hbtp]
      \centering
      \begin{subfigure}[b]{0.8\textwidth}
@@ -166,8 +170,8 @@ We collect all the False Positive samples from images 1 to 750 and add them to t
 
 
 \chapter{Evaluation}
-We choose Average Precision (AP), Precision, and Recall per class as object detection metrics. The following data and figures are generated via an open-source tool https://github.com/rafaelpadilla/Object-Detection-Metrics. The threshold of IOU is set to 0.5. We evaluate our method on images from 751 to 852, which never touched during our training process.
-As Figure \ref{fig:e} shows, the "with mask" class has the best accuracy, which AP is 73.35\%, and the "without mask" class's AP is 43.65\%. Not surprisingly "Weared Mask Incorrectly" class has the worst AP value, only 15.71\%, since we do not have enough data for this class.
+We choose Average Precision (AP), Precision and Recall curve as object detection metrics. The following evaluate results and figures are generated via an open-source tool \cite{odm}. The threshold of IOU is set to 0.5. We evaluate our method on images from 751 to 852, which never touched during our training process.
+As Figure \ref{fig:e} shows, the "with mask" class has the best accuracy, which AP is 73.35\%, and the "without mask" class's AP is 43.65\%. Not surprisingly "Wore Mask Incorrectly" class has the worst AP value, only 15.71\%, since we do not have enough data for this class.
 \begin{figure}[hbtp]
      \centering
      \begin{subfigure}[b]{0.8\textwidth}
@@ -186,7 +190,7 @@ As Figure \ref{fig:e} shows, the "with mask" class has the best accuracy, which 
      \begin{subfigure}[b]{0.8\textwidth}
          \centering
          \includegraphics[width=\textwidth]{./imgs/incorrect.png}
-         \caption{Weared Mask Incorrectly}
+         \caption{Wore Mask Incorrectly}
      \end{subfigure}
 
         \caption{Evaluation Result}
@@ -244,11 +248,14 @@ As Figure \ref{fig:e} shows, the "with mask" class has the best accuracy, which 
 \label{fig:good}
 \end{figure}
 \chapter{Conclusion}
-In conclusion, this program can achieve a reasonable accuracy to detect human faces with masks; for worn masks incorrectly, the accuracy is not ideal because of the lack of training samples. We believe that with more samples of the worn masks incorrectly, we can improve the performance of our algorithm.  \\
+In conclusion, this program can achieve a reasonable accuracy to detect human faces with masks; for worn masks incorrectly, the accuracy is not ideal because of the lack of training samples. We believe that with more samples of the wore masks incorrectly, we can improve the performance of our algorithm.  \\
 During the implementation, we also expericence the drawbacks of sliding window approach.
 \begin{enumerate}
-\item Such an approach can not segment the target objects with high accuracy ROIs because the ROI's size and shape are predefined and can not adjust accordingly. To fits most cases, we define the windows as squires, while the ground truth is not always a squire.
+\item Such an approach can not segment the target objects with high accuracy ROIs because the ROI's size and shape are predefined and can not adjust accordingly. To fits most cases, we define the windows as squires, while the ground truth is not always a square.
 \item The Sliding window approach needs lots of computation. To match different size target objects for each image, we need to use different size windows to generate ten thousand sub-images to classify. Even on an RTX3060 GPU, it takes minutes to process one image.
 
 \end{enumerate}
+
+\bibliographystyle{plain}
+\bibliography{Reference}
 \end{document}

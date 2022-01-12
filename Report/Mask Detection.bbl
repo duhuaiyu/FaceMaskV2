@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{facemd}
+Face mask detection.
+\newblock \url{https://www.kaggle.com/andrewmvd/face-mask-detection}.
+\newblock Accessed: 2022-01-12.
+
+\bibitem{face12k}
+Face mask detection ~12k images dataset.
+\newblock
+  \url{https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset}.
+\newblock Accessed: 2022-01-12.
+
+\bibitem{odm}
+Object detection metrics.
+\newblock \url{https://github.com/rafaelpadilla/Object-Detection-Metrics}.
+\newblock Accessed: 2022-01-12.
+
+\end{thebibliography}
